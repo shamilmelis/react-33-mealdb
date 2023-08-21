@@ -1,0 +1,446 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #000;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.container-menu {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.inner-menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  .container-menu .inner-links {
+    display: none;
+  }
+}
+
+.navigation-links {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navigation-logo {
+  color: #fff;
+  font-size: 40px;
+}
+
+.inner-search {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.meals-section {
+  padding: 50px 0 0;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  width: 33.333%;
+  padding: 10px;
+}
+
+@media (max-width: 790px) {
+  .row .col {
+    width: 50%;
+  }
+}
+
+@media (max-width: 440px) {
+  .row .col {
+    width: 100%;
+  }
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  height: 100%;
+}
+
+.cards-img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.cards-title {
+  text-align: center;
+  padding: 8px 0;
+}
+
+.descr-section {
+  padding: 40px 10px 0;
+}
+
+.container-back {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.box-back {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.go-back-button {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 15px;
+  background: orange;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.info-section {
+  padding: 30px 10px;
+}
+
+.container-info {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.row-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 790px) {
+  .row-info .col-info {
+    width: 100%;
+  }
+}
+
+.col-info {
+  width: 50%;
+  padding: 10px;
+}
+
+.box-info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100%;
+  border: 2px solid gainsboro;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+.meal-descr-img {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.meal-descr {
+  font-weight: 500;
+  font-size: 13px;
+  padding: 15px 0;
+  color: #fff;
+}
+
+.meal-descr-title {
+  font-weight: 900;
+  font-size: 25px;
+  padding: 0 0 15px;
+  text-align: center;
+  color: #fff;
+}
+
+.meal-descr-discleimer {
+  font-weight: 700;
+  font-size: 15px;
+  color: gainsboro;
+  padding: 10px 0 0;
+}
+
+.meal-country-discleimer {
+  font-weight: 700;
+  font-size: 15px;
+  color: gainsboro;
+  padding: 10px 0 0;
+}
+
+.meal-country {
+  font-weight: 600;
+  font-size: 15px;
+  padding: 5px 0;
+  color: #fff;
+}
+
+.meal-tags {
+  font-weight: 600;
+  font-size: 15px;
+  color: gainsboro;
+  padding: 5px 0;
+}
+
+.meal-tags-values {
+  font-weight: 500;
+  font-size: 13px;
+  color: #fff;
+  padding: 5px 0;
+}
+
+.meal-info {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid gainsboro;
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.col-4 {
+  width: 33.333%;
+  padding: 3px;
+}
+
+@media (max-width: 450px) {
+  .meal-info .col-4 {
+    width: 50%;
+  }
+}
+
+@media (max-width: 340px) {
+  .meal-info .col-4 {
+    width: 100%;
+  }
+}
+
+.box-ingredient {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.img-ingredient {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+.search-input {
+  outline: none;
+  padding: 8px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border: 1px solid gainsboro;
+  font-weight: 600;
+}
+
+.navigation-button {
+  padding: 9px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.video-section {
+  padding: 20px 10px;
+}
+
+.container-video {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.box-video {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.inner-video {
+  width: 100%;
+  height: 500px;
+}
+
+.video-title {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 8px 0;
+  color: #fff;
+}
+
+.ingr-section {
+  padding: 50px 0 0;
+}
+
+.container-ingr {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.row-ingr {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+  .row-ingr .col-ingr {
+    width: 100%;
+  }
+}
+
+.col-ingr {
+  width: 50%;
+  padding: 10px;
+}
+
+.box-ingr-info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-ingr-meals {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ingr-name {
+  font-size: 30px;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.ingr-img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+}
+
+.ingr-meals {
+  font-size: 20px;
+  color: #fff;
+}
+
+.meal-ingredients {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.meal-ingredient {
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.ingr-meals-hightligth {
+  background: orange;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+footer {
+  margin: 100px 0 0;
+  background: #000;
+}
+
+.container-footer {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.row-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.col-footer {
+  width: 33.333%;
+  padding: 10px;
+}
+
+
+.footer-title {
+  font-size: 35px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.api-title {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0 0 15px;
+  color: #fff;
+}
+
+.api-values {
+  font-size: 11px;
+  font-weight: 500;
+  padding: 5px 0;
+  color: orange;
+}
+
+.author-rights-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.author-rights-title span {
+  background: orange;
+  padding: 5px;
+  border-radius: 5px;
+}
